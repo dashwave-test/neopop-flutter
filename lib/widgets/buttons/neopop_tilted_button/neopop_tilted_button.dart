@@ -184,7 +184,7 @@ class _NeoPopTiltedButtonState extends State<NeoPopTiltedButton>
             ? NeoPopTiltedButtonDecoration(
                 color: widget.color ?? Colors.transparent,
               )
-            : const NeoPopTiltedButtonDecoration());
+            : const NeoPopTiltedButtonDecoration(color: Colors.blue));
     controller = AnimationController(
       vsync: this,
       duration: widget.isFloating
