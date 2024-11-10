@@ -45,6 +45,7 @@ class _PopButtonScreenState extends State<PopButtonScreen> {
               child: SvgPicture.asset('assets/svg/cta_text_play_now.svg'),
             ),
           ),
+          const SizedBox(height: 10), // Added staggered effect
           const Expanded(child: SizedBox()),
           SvgPicture.asset('assets/svg/text_non_floating_tilt_button.svg'),
           const SizedBox(height: 15),
@@ -60,6 +61,7 @@ class _PopButtonScreenState extends State<PopButtonScreen> {
               child: SvgPicture.asset('assets/svg/cta_text_view.svg'),
             ),
           ),
+          const SizedBox(height: 10), // Added staggered effect
           const Expanded(child: SizedBox()),
           SvgPicture.asset('assets/svg/text_stroke_button.svg'),
           const SizedBox(height: 18),
